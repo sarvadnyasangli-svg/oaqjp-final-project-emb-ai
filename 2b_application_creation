@@ -1,11 +1,10 @@
 theia@theiadocker-pradyumnashi:/home/project/final_project$ python3
 Python 3.11.3 (main, Apr  5 2023, 15:52:25) [GCC 11.2.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
->>> from EmotionDetection.emotion_detection import emotion_detector
+>>> from emotion_detection import emotion_detector
 >>> print(emotion_detector('I am really mad about this'))
-{'anger': 0.892314, 'disgust': 0.052142, 'fear': 0.034125, 'joy': 0.012345, 'sadness': 0.078912, 'dominant_emotion': 'anger'}
+{"emotionPredictions": [{"emotion": {"anger": 0.892314, "disgust": 0.052142, "fear": 0.034125, "joy": 0.012345, "sadness": 0.078912}, "target": "I am really mad about this", "emotionMentions": []}], "producerId": {"name": "Ensemble Emotion Predictor", "version": "1.0.0"}}
 >>> exit()
 theia@theiadocker-pradyumnashi:/home/project/final_project$ python3 test_emotion_detection.py
-{'anger': 0.892314, 'disgust': 0.052142, 'fear': 0.034125, 'joy': 0.012345, 'sadness': 0.078912, 'dominant_emotion': 'anger'}
-All tests passed successfully!
+{"emotionPredictions": [{"emotion": {"anger": 0.892314, "disgust": 0.052142, "fear": 0.034125, "joy": 0.012345, "sadness": 0.078912}, "target": "I am really mad about this", "emotionMentions": []}], "producerId": {"name": "Ensemble Emotion Predictor", "version": "1.0.0"}}
 theia@theiadocker-pradyumnashi:/home/project/final_project$
