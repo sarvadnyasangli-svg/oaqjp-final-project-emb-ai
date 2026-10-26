@@ -1,0 +1,9 @@
+************* Module server
+server.py:17:0: C0303: Trailing whitespace (trailing-whitespace)
+server.py:19:0: C0303: Trailing whitespace (trailing-whitespace)
+server.py:22:0: C0303: Trailing whitespace (trailing-whitespace)
+server.py:28:0: C0303: Trailing whitespace (trailing-whitespace)
+
+-----------------------------------
+Your code has been rated at 7.89/10
+
